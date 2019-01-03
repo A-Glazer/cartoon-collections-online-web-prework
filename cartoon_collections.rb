@@ -20,6 +20,10 @@ def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if food.include?("cheddar") == true
     return "cheddar"
+  elsif food.include?("gouda") == true
+    return "gouda"
+  elsif food.include?("camembert") == true
+    return "cammembert"
   else
     return nil
   end
